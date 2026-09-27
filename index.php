@@ -10,10 +10,9 @@ $p1 = new arbol ("pino", "redondo", 5, "marron", "grandes","abeto", 43, true, "f
  $p3 = new arbusto (5, true, "arbusto", "verde", true,"arbusto", 7, true, "frio");
 
 
-echo $p1->mensaje()." y mi nombre es ". $p1->getNombre();
+echo $p1->mensaje();
 echo "<br>";
- echo $p2->mensaje()." y mi nombre es ". $p1->getNombre();
+ echo $p2->mensaje();
  echo "<br>";
- echo $p3->mensaje()." y mi nombre es ". $p1->getNombre();
-
+ echo $p3->mensaje();
 
